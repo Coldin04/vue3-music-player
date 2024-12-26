@@ -1,0 +1,43 @@
+{
+  "name": "vue3-music-player",
+  "version": "1.0.2",
+  "description": "A music player based on electron and vue3,coldin04 are the authors",
+  "main": "src/main.js",
+  "type": "module",
+  "author": {
+    "name": "coldin04"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "build": "vite build",
+    "dev": "concurrently \"vite\" \"electron .\"",
+    "package": "electron-forge package",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "forge": "electron-forge",
+    "make": "electron-forge make"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.5.3",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.6.0",
+    "@electron-forge/maker-deb": "^7.6.0",
+    "@electron-forge/maker-rpm": "^7.6.0",
+    "@electron-forge/maker-squirrel": "^7.6.0",
+    "@electron-forge/maker-zip": "^7.6.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.6.0",
+    "@electron-forge/plugin-fuses": "^7.6.0",
+    "@electron/fuses": "^1.8.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "concurrently": "^9.1.0",
+    "copyfiles": "^2.4.1",
+    "cross-env": "^7.0.3",
+    "electron": "33.2.1",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "asar": "^3.2.0",
+    "electron-is-dev": "^3.0.1",
+    "electron-squirrel-startup": "^1.0.1",
+    "vue": "3"
+  }
+}
