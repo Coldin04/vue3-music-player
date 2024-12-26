@@ -2,7 +2,8 @@
 
 这是一个用于毕业设计的音乐播放器项目。
 
-**作者**：Coldin04
+- **作者**：Coldin04
+- **首页**：[co1d.in](https://co1d.in)
 
 本项目的开发过程中使用了Github Copilot。
 
