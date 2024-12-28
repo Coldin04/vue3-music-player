@@ -1,6 +1,6 @@
 {
   "name": "vue3-music-player",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A music player based on electron and vue3,coldin04 are the authors",
   "main": "src/main.js",
   "type": "module",
